@@ -1,0 +1,27 @@
+{
+  "name": "ui-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "percy": "percy exec -- cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@percy/webdriverio": "^3.3.1"
+  },
+  "devDependencies": {
+    "@percy/cli": "^1.31.1",
+    "@percy/cypress": "^3.1.6",
+    "@percy/playwright": "^1.0.9",
+    "@percy/storybook": "^9.0.0",
+    "@playwright/test": "^1.54.2",
+    "@types/node": "^24.3.0",
+    "cypress": "^14.5.4",
+    "loki": "^0.35.1",
+    "playwright": "^1.54.2"
+  }
+}
